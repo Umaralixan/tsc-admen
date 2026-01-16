@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin</title>
+    <style type="text/tailwindcss"></style>
+  </head>
+  <body class="overflow-hidden">
+    <div class="flex">
+      <div class="h-[100vh] overflow-y-auto w-[22%] bg-[#5603fc]">
+        <div class="p-5 border-b-[2px] border-white">
+          <a class="flex items-center gap-2" href="/">
+            <img src="./img/logo.avif" alt="Logo" width="60" height="60" />
+            <strong class="text-[25px] text-white">Admin</strong>
+          </a>
+        </div>
+        <nav class="flex flex-col gap-[20px] p-5">
+          <a class="text-red-300 font-bold text-[20px]" href="">Teachers</a>
+          <a class="text-white font-bold text-[20px]" href="">Students</a>
+          <a class="text-white font-bold text-[20px]" href="">Stacks</a>
+        </nav>
+      </div>
+      <div class="h-[100vh] overflow-y-auto w-[78%]">
+        <div class="flex items-center justify-between p-5">
+          <h2 class="font-bold text-[25px]">Teachers</h2>
+          <button
+         class="create-btn bg-[#5603fc] py-1 px-2 rounded-md text-white font-bold"
+          >
+            Create
+          </button>
+        </div>
+        <div class="flex items-center px-5 gap-[20px]">
+          <input
+            class="search-inp border-[2px] p-2 rounded-md w-[300px]"
+            type="text"
+            placeholder="Searching..."
+          />
+          <select class="stack-select border-[2px] p-2.5 rounded-md w-[300px]">
+            <option value="">ALL</option>
+          </select>
+        </div>
+        <div class="p-5 mt-5">
+          <table class="w-full">
+            <thead>
+              <tr>
+                <td
+                  class="font-bold text-[18px] border-b-[2px] text-center pb-2"
+                >
+                  ID
+                </td>
+                <td
+                  class="font-bold text-[18px] border-b-[2px] text-center border-x-[2px] pb-2"
+                >
+                  Firstname
+                </td>
+                <td
+                  class="font-bold text-[18px] border-b-[2px] text-center border-x-[2px] pb-2"
+                >
+                  Lastname
+                </td>
+                <td
+                  class="font-bold text-[18px] border-b-[2px] text-center border-x-[2px] pb-2"
+                >
+                  Email
+                </td>
+                <td
+                  class="font-bold text-[18px] border-b-[2px] text-center border-x-[2px] pb-2"
+                >
+                  Phone
+                </td>
+                <td
+                  class="font-bold text-[18px] border-b-[2px] text-center border-x-[2px] pb-2"
+                >
+                  Stack
+                </td>
+                <td
+                  class="font-bold text-[18px] border-b-[2px] text-center pb-2"
+                >
+                  Action
+                </td>
+              </tr>
+            </thead>
+
+            <tbody class="Teachers-list">
+              <tr>
+                <td
+                  class="text-center font-bold text-[15px] py-2 border-b-[1px]"
+                >
+                  1
+                </td>
+                <td
+                  class="text-center font-bold text-[15px] py-2 border-b-[1px]"
+                >
+                  Nurillo
+                </td>
+                <td
+                  class="text-center font-bold text-[15px] py-2 border-b-[1px]"
+                >
+                  Suyunboyev
+                </td>
+                <td
+                  class="text-center font-bold text-[15px] py-2 border-b-[1px]"
+                >
+                  nurillo@gmail.com
+                </td>
+                <td
+                  class="text-center font-bold text-[15px] py-2 border-b-[1px]"
+                >
+                  +998994683603
+                </td>
+                <td
+                  class="text-center font-bold text-[15px] py-2 border-b-[1px]"
+                >
+                  Frontend
+                </td>
+                <td
+                  class="text-center font-bold text-[15px] py-2 border-b-[1px] space-x-[10px]"
+                >
+                  <button>
+                    <img
+                      class="width-[20px] height-[20px]"
+                      src="./img/edit.svg"
+                      alt="edit"
+                    />
+                  </button>
+                  <button>
+                    <img
+                      class="width-[25px] height-[25px]"
+                      src="./img/trash.svg"
+                      alt="edit"
+                    />
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,147 @@
+{
+  "teachers": [
+    {
+      "id": "1",
+      "stackId": "1",
+      "stackName": "Frontend",
+      "firstname": "Nurillo",
+      "lastname": "Suyunboyev",
+      "email": "nurillo@gmail.com",
+      "phone": "+998994683603"
+    },
+    {
+      "id": "2",
+      "stackId": "4",
+      "stackName": "Flutter",
+      "firstname": "Umarali",
+      "lastname": "Nurmurodov",
+      "email": "umarali@gmail.com",
+      "phone": "+998889308676"
+    },
+    {
+      "id": "2045"
+    },
+    {
+      "id": "0ce6"
+    },
+    {
+      "id": "8141"
+    },
+    {
+      "id": "ba2e"
+    },
+    {
+      "id": "1deb"
+    },
+    {
+      "id": "7aed"
+    },
+    {
+      "id": "3",
+      "stackId": "5",
+      "stackName": "SMM",
+      "firstname": "Asad",
+      "lastname": "O'lmasov",
+      "email": "asad@gmail.com",
+      "phone": "+998889308676"
+    },
+    {
+      "id": "3",
+      "stackId": "5",
+      "stackName": "SMM",
+      "firstname": "Asad",
+      "lastname": "O'lmasov",
+      "email": "asad@gmail.com",
+      "phone": "+998889308676"
+    },
+    {
+      "id": "3",
+      "stackId": "5",
+      "stackName": "SMM",
+      "firstname": "Asad",
+      "lastname": "O'lmasov",
+      "email": "asad@gmail.com",
+      "phone": "+998889308676"
+    },
+    {
+      "id": "3",
+      "stackId": "5",
+      "stackName": "SMM",
+      "firstname": "Asad",
+      "lastname": "O'lmasov",
+      "email": "asad@gmail.com",
+      "phone": "+998889308676"
+    },
+    {
+      "id": "3",
+      "stackId": "5",
+      "stackName": "SMM",
+      "firstname": "Asad",
+      "lastname": "O'lmasov",
+      "email": "asad@gmail.com",
+      "phone": "+998889308676"
+    },
+    {
+      "id": "3",
+      "stackId": "5",
+      "stackName": "SMM",
+      "firstname": "Asad",
+      "lastname": "O'lmasov",
+      "email": "asad@gmail.com",
+      "phone": "+998889308676"
+    },
+    {
+      "id": "15",
+      "stackId": "5",
+      "stackName": "SMM",
+      "firstname": "Asad",
+      "lastname": "O'lmasov",
+      "email": "asad@gmail.com",
+      "phone": "+998889308676"
+    },
+    {
+      "id": "16",
+      "stackId": "5",
+      "stackName": "SMM",
+      "firstname": "Asad",
+      "lastname": "O'lmasov",
+      "email": "asad@gmail.com",
+      "phone": "+998889308676"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "stackId": "1",
+      "stackName": "Frontend",
+      "teacherId": "1",
+      "firstname": "Fazliddin",
+      "lastname": "Xakimjonov",
+      "age": "22",
+      "email": "fazliddin@gmail.com",
+      "phone": "+99890015064"
+    }
+  ],
+  "stacks": [
+    {
+      "id": "1",
+      "name": "Frontend"
+    },
+    {
+      "id": "2",
+      "name": "Backend"
+    },
+    {
+      "id": "3",
+      "name": "QA"
+    },
+    {
+      "id": "4",
+      "name": "Flutter"
+    },
+    {
+      "id": "5",
+      "name": "SMM"
+    }
+  ]
+}
